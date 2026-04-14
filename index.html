@@ -7,7 +7,9 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
     <style>
         body {
             font-family: 'Segoe UI', sans-serif;
@@ -65,14 +67,15 @@
 
 <body>
     <!--header-->
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
         <div class="container-sm">
             <a class="navbar-brand fw-bold" href="#">PORTFOLIO</a>
-
-            <button class="navbar-toggler">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="menu">
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
@@ -200,7 +203,7 @@
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card h-100">
-                        <img src="portfolio.jpg" class="card-img-top" alt="...">
+                        <img src="portfolio.jpg" class="card-img-top" alt="potyfolio">
                         <div class="card-body">
                             <h5 class="card-title">포트폴리오 사이트</h5>
                             <p class="card-text">HTML, CSS, JavaScript로 제작한 반응형 웹사이트</p>
@@ -213,7 +216,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="hospital.jpg" class="card-img-top" alt="...">
+                        <img src="hospital.jpg" class="card-img-top" alt="hospiral_clone">
                         <div class="card-body">
                             <h5 class="card-title">병원 웹사이트 UI</h5>
                             <p class="card-text">Bootstrap 기반 UI/UX 개선 프로젝트</p>
@@ -226,12 +229,14 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="study.jpg" class="card-img-top" alt="study">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to
-                                additional content.</p>
+                            <h5 class="card-title">Java</h5>
+                            <p class="card-text">Java를 활용한 예제프로그램</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://github.com/jyeah110-hue/helloworld/" target="_blank"
+                                class="btn btn-outline-secondary btn-sm">GitHub</a>
                         </div>
                     </div>
                 </div>
