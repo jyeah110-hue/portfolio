@@ -7,7 +7,7 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <style>
         body {
             font-family: 'Segoe UI', sans-serif;
@@ -54,7 +54,7 @@
             border-radius: 5px;
             font-size: 10px;
             margin-right: 15px;
-        }   
+        }
 
         .sub-title {
             border-left: 8px solid #ff5c5c;
@@ -115,17 +115,21 @@
                 <div class="col-md-6">
                     <div class="card p-4 shadow-sm h-100">
                         <h5 class="sub-title">SKILLS</h5>
-                        <small>하예주 | 36세</small>
-                        <p class="mt-3">
-                            안녕하세요! 웹 개발자 하예주 입니다.<br>
-                            다양한 프로젝트를 통해 다양한 프로그래밍 언어와 기술을 익히고, 이를 활용하여 창의적이고 사용자 친화적인 웹 솔루션을 제공하는 데에 열정을 가지고 있습니다.
-                            깊은 문제 해결 능력과 팀워크로, 프로젝트의 성공을 위해 최선을 다하고 있습니다.
-                            항상 새로운 도전을 환영하며, 협업을 통해 함께 성장할 수 있는 기회를 기다리고 있습니다.
+
+                        <p>
+                            <small>
+                                <p class="lead">안녕하세요! 웹 개발자 하예주 입니다.</p>
+                                다양한 프로젝트를 통해 다양한 프로그래밍 언어와 기술을 익히고, 이를 활용하여 창의적이고 사용자 친화적인 웹 솔루션을 제공하는 데에 열정을 가지고 있습니다.
+                                깊은 문제 해결 능력과 팀워크로, 프로젝트의 성공을 위해 최선을 다하고 있습니다.
+                                항상 새로운 도전을 환영하며, 협업을 통해 함께 성장할 수 있는 기회를 기다리고 있습니다.
+                            </small>
                         </p>
 
-                        <div class="row g-4 bottom">
+                        <br>
+
+                        <div class="row g-4">
                             <div class="col-6 col-md-3">
-                                <span><button type="button" class="btn-icon" disabled>&lt;/&gt;</button>HTML / CSS</span>
+                                <span><button type="button" class="btn-icon" disabled>&lt;/&gt;</button>HTML/CSS</span>
                             </div>
                             <div class="col-6 col-md-3">
                                 <span><button type="button" class="btn-icon" disabled>&lt;/&gt;</button>SQL</span>
@@ -151,29 +155,36 @@
                 <div class="col-md-6">
                     <div class="card p-4 shadow-sm h-100">
                         <h5 class="sub-title">CAREER</h5>
-                        <div>
-                            <small>(교육)AI활용 Python&Java기반 Spring활용 웹개발자 | 2026.03~2026.09</small>
-                            <p class="mt-3">
-                                Java와 Spring Boot를 사용한 웹 개발과 서버 구축 방법을 배우고, Thymeleaf 및 HTML5, CSS, JavaScript 등을 이용한 프론트엔드까지 모두 다룰 수 있는 풀스택 개발 과정교육
-                            </p>
-                        </div>
-                        <div>
-                            <small>픽소니어 | 2023.02~2026.01</small>
-                            <p class="mt-3">
+                        <p></p>
+                        <div class="card-header">
+                            <h5 class="card-title h5">AI활용 Python&Java기반 Spring활용 웹개발자 과정</h5>
+                            <p class="card-text"><small class="text-body-secondary">2026.03~2026.09</small></p>
+                            <small class="s">
+                                Java와 Spring Boot를 사용한 웹 개발과 서버 구축 방법을 배우고 HTML5, CSS, JavaScript 등을 이용한
+                                프론트엔드까지 모두 다룰 수 있는 풀스택 개발 과정교육
+                            </small>
+                        </div><br>
+                        <div class="card-header">
+                            <h5 class="card-title">픽소니어</h5>
+                            <p class="card-text"><small class="text-body-secondary">2023.02~2026.01</small></p>
+                            <small class="s">
                                 항공 위성 지형 동영상처리, 영상판독, 영상통합관리, 지상통제체계를 비롯한 핵심 소프트웨어 개발기업
-                            </p>
-                        </div>
-                        <div>
-                            <small>와이즈엠시스템즈 | 2020.12~2023.01</small>
-                            <p class="mt-3">
+                            </small>
+                        </div><br>
+                        <div class="card-header">
+                            <h5 class="card-title">와이즈엠시스템즈</h5>
+                            <p class="card-text"><small class="text-body-secondary">2020.12~2023.01</small></p>
+                            <small class="s">
                                 제조기업의 생산정보시스템 구축을 주 사업으로 하는 전문기업
-                            </p>
-                        </div>
-                        <div>
-                            <small>(교육)스마트공장 CPS지향형 지능로봇 관제기술 개발과정 | 2020.05~2020.11</small>
-                            <p class="mt-3">
-                              스마트공장 관제 소프트웨어를 중심으로 C#, JavaScript, DB, PLC/HMI, SCADA, DAS 등 연계 기술을 다루며, 산업용 IoT를 결합한 로봇 관제기술을 학습
-                            </p>
+                            </small>
+                        </div><br>
+                        <div class="card-header">
+                            <h5 class="card-title">스마트공장 CPS지향형 지능로봇 관제기술 개발과정</h5>
+                            <p class="card-text"><small class="text-body-secondary">2020.05~2020.11</small></p>
+                            <small class="s">
+                                스마트공장 관제 소프트웨어를 중심으로 C#, JavaScript, DB, PLC/HMI, SCADA, DAS 등 연계 기술을 다루며, 산업용 IoT를 결합한
+                                로봇 관제기술 교육
+                            </small>
                         </div>
                     </div>
                 </div>
@@ -186,50 +197,52 @@
     <section id="projects" class="section">
         <div class="container-sm">
             <h3 class="fw-bold mb-5 text-center">PROJECTS</h3>
-
-            <div class="row g-4">
-
-                <!--Project 1-->
-                <div class="col-md-4">
-                    <div class="card shadow-sm h-100">
-                        <img src="sample.jpg" class="card-img-top">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="portfolio.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">포트폴리오 사이트</h5>
-                            <p class="card-text text-muted">
-                                HTML, CSS, JavaScript로 제작한 반응형 웹사이트
-                            </p>
-                            <a href="#" class="btn btn-main btn-sm">Live Demo</a>
-                            <a href="#" class="btn btn-outline-secondary btn-sm">GitHub</a>
+                            <p class="card-text">HTML, CSS, JavaScript로 제작한 반응형 웹사이트</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://jyeah110-hue.github.io/portfolio/" target="_blank"
+                                class="btn btn-outline-secondary btn-sm">GitHub</a>
                         </div>
                     </div>
                 </div>
-
-                <!--Project 2-->
-                <div class="col-md-4">
-                    <div class="card shadow-sm h-100">
-                        <img src="hospital.jpg" class="card-img-top">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="hospital.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">병원 웹사이트 UI</h5>
-                            <p class="card-text text-muted">
-                                Bootstrap 기반 UI/UX 개선 프로젝트
-                            </p>
-                            <a href="#" class="btn btn-main btn-sm">Live Demo</a>
-                            <a href="#" class="btn btn-outline-secondary btn-sm">GitHub</a>
+                            <p class="card-text">Bootstrap 기반 UI/UX 개선 프로젝트</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://jyeah110-hue.github.io/test/" target="_blank"
+                                class="btn btn-outline-secondary btn-sm">GitHub</a>
                         </div>
                     </div>
                 </div>
-
-                <!--Project 3-->
-                <div class="col-md-4">
-                    <div class="card shadow-sm h-100">
-                        <img src="sample.jpg" class="card-img-top">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">쇼핑몰 UI</h5>
-                            <p class="card-text text-muted">
-                                Bootstrap 기반 UI/UX 개선 프로젝트
-                            </p>
-                            <a href="#" class="btn btn-main btn-sm">Live Demo</a>
-                            <a href="#" class="btn btn-outline-secondary btn-sm">GitHub</a>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
                         </div>
                     </div>
                 </div>
